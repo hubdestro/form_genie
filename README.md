@@ -1,8 +1,10 @@
 # 📋 Form Genie
 
-**Form Genie** is an open-source Flutter library that allows you to dynamically generate fully functional forms from a JSON Schema or OpenAPI definition.
+**Form Genie** is an open-source Flutter library that allows you to dynamically generate fully
+functional forms from a JSON Schema or OpenAPI definition.
 
-No more hardcoding your forms — just pass a schema and let Form Genie handle the UI, validation, and structure. Great for building admin panels, dynamic CRUD interfaces, or rapid prototyping tools.
+No more hardcoding your forms — just pass a schema and let Form Genie handle the UI, validation, and
+structure. Great for building admin panels, dynamic CRUD interfaces, or rapid prototyping tools.
 
 ---
 
@@ -42,6 +44,7 @@ import 'package:form_genie/form_genie.dart';
 ## 🧪 Example Usage
 
 ```dart
+
 final jsonSchema = jsonEncode({
   "type": "object",
   "required": ["name", "age"],
@@ -55,9 +58,13 @@ final jsonSchema = jsonEncode({
 
 final fields = parseJsonSchema(jsonSchema);
 
-FormGenie(
-  fields: fields,
-  onSubmit: (data) => print(data),
+FormGenie
+(
+fields: fields,
+onSubmit: (data) => print(
+data
+)
+,
 )
 ```
 
@@ -65,12 +72,12 @@ FormGenie(
 
 ## 🔧 Supported Field Types
 
-| JSON Type  | Field Type   | Widget                  |
-|------------|--------------|--------------------------|
-| string     | text         | `TextFormField`          |
-| number     | number       | `TextFormField`          |
-| boolean    | checkbox     | `CheckboxListTile`       |
-| enum       | dropdown     | `DropdownButtonFormField`|
+| JSON Type | Field Type | Widget                    |
+|-----------|------------|---------------------------|
+| string    | text       | `TextFormField`           |
+| number    | number     | `TextFormField`           |
+| boolean   | checkbox   | `CheckboxListTile`        |
+| enum      | dropdown   | `DropdownButtonFormField` |
 
 ---
 
@@ -92,7 +99,8 @@ Available on [pub.dev](https://pub.dev/packages/form_genie).
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Feel free to submit issues, suggest new features, or open pull requests.
+We welcome contributions from the community! Feel free to submit issues, suggest new features, or
+open pull requests.
 
 ---
 
@@ -104,17 +112,17 @@ Form Genie is licensed under the [Apache License 2.0](LICENSE). See the LICENSE 
 
 ## 🤝 Collaborators
 
-<p align="left">
-  <span style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://github.com/hubdestro.png" width="60" style="border-radius: 50%;" alt="hubdestro"/><br/>
-    <b>hubdestro</b>
-  </span>
-  <span style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://github.com/AkashSahnee07.png" width="60" style="border-radius: 50%;" alt="Akash"/><br/>
-    <b>Akash</b>
-  </span>
-  <span style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://github.com/Manali6421.png" width="60" style="border-radius: 50%;" alt="Manali"/><br/>
-    <b>Manali</b>
-  </span>
-</p>
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hubdestro"><img src="https://github.com/hubdestro.png" width="100px;" alt="hubdestro"/><br /><sub><b>hubdestro</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AkashSahnee07"><img src="https://github.com/AkashSahnee07.png" width="100px;" alt="Akash"/><br /><sub><b>Akash</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Manali6421"><img src="https://github.com/Manali6421.png" width="100px;" alt="Manali"/><br /><sub><b>Manali</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
