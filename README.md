@@ -110,7 +110,7 @@ Form Genie is licensed under the [Apache License 2.0](LICENSE). See the LICENSE 
 
 ---
 
-## 🤝 Collaborators
+## 🤝 Contributors
 
 Thanks goes to these wonderful people:
 
