@@ -102,6 +102,9 @@ Form Genie is licensed under the [Apache License 2.0](LICENSE). See the LICENSE 
 
 ---
 
-## 👤 Author
+## 🤝 Collaborators
 
-**Form Genie** is developed and maintained by Hubdestro. If you use or enjoy the package, feel free to ⭐️ the repo and spread the word!
+| Avatar | Name          | GitHub                            |
+|--------|---------------|-----------------------------------|
+| ![hubdestro](https://github.com/hubdestro.png?size=60) | **hubdestro** | [@hubdestro](https://github.com/hubdestro) |
+| ![manali](https://github.com/manali.png?size=60)       | **manali**    | [@manali](https://github.com/Manali6421)       |
