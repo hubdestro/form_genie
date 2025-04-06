@@ -103,6 +103,18 @@ Form Genie is licensed under the [Apache License 2.0](LICENSE). See the LICENSE 
 ---
 
 ## 🤝 Collaborators
-<img src="https://github.com/hubdestro.png" width=10% alt="hubdestro"/>
-<img src="https://github.com/AkashSahnee07.png" width=10% alt="Akash"/>
-<img src="https://github.com/Manali6421.png" width=10% alt="Manali"/>
+
+<p align="left">
+  <span style="display: inline-block; text-align: center; margin-right: 30px;">
+    <img src="https://github.com/hubdestro.png" width="60" style="border-radius: 50%;" alt="hubdestro"/><br/>
+    <b>hubdestro</b>
+  </span>
+  <span style="display: inline-block; text-align: center; margin-right: 30px;">
+    <img src="https://github.com/AkashSahnee07.png" width="60" style="border-radius: 50%;" alt="Akash"/><br/>
+    <b>Akash</b>
+  </span>
+  <span style="display: inline-block; text-align: center; margin-right: 30px;">
+    <img src="https://github.com/Manali6421.png" width="60" style="border-radius: 50%;" alt="Manali"/><br/>
+    <b>Manali</b>
+  </span>
+</p>
