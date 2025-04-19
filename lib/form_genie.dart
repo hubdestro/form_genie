@@ -1,7 +1,4 @@
 library form_genie;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/form_field_meta.dart';
+export 'src/form_genie_widget.dart';
